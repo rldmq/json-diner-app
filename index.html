@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+    <head>
+        <title>.JSON's Diner</title>
+        <link rel="stylesheet" href="./styles.css" />
+        <!-- GOOGLE FONTS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Permanent+Marker&display=swap" rel="stylesheet">
+        <!-- FAVICON -->
+        <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicons/favicon-16x16.png">
+        <link rel="manifest" href="./assets/favicons/site.webmanifest">
+    </head>
+    <body>
+        <header>
+            <div class="match-width">
+                <h1 class="welcome">Welcome to .JSON's Diner!</h1>
+                <p class="motto">The best foodmoji on the web.</p>
+            </div>
+        </header>
+        <main>
+            <section id="menu-container" class="menu-container">
+                <!-- MENU GOES HERE -->
+            </section>
+            <section class="order-container hidden" id="order-container">
+                <h2 class="your-order-txt">Your order</h2>
+                <div id="user-order" class="user-order">
+                <!-- ORDER GOES HERE -->
+                </div>
+                <div class="total-price-container">
+                    <p>Total price:</p>
+                    <p class="total-price" id="total-price"></p>
+                </div>
+                <button class="complete-btn green-btn btn" id="complete-btn">Complete Order</button>
+            </section>
+        </main>
+        <script src="./scripts.js" type="module"></script>
+    </body>
+</html>
